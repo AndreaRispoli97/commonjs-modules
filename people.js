@@ -12,7 +12,7 @@ const personalHobbie = require("./hobbies.js");
 
 function fullNameHobbies(){
     return {
-        fullName: nameFunction('Andrea', 'Rispoli'),
+        fullName: `${'Andrea'} ${'Rispoli'}`,
         hobbies: personalHobbie('Mangio', 'Bevo', 'Dormo')
     }
 }
