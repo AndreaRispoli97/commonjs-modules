@@ -3,8 +3,9 @@
 // 2. Esporta la funzione dal file.
 
 function myHobbies(hobbyOne,hobbyTwo,hobbieThree){
-    const hobbies = [hobbyOne, hobbyTwo,hobbieThree];
-    return hobbies;
+    return [hobbyOne, hobbyTwo,hobbieThree];
 }
+
+console.log(myHobbies('Mangio', 'Bevo', 'Dormo'))
 
 module.exports = myHobbies;

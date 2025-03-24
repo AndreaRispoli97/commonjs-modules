@@ -4,9 +4,11 @@
 
 function fullName(firstName, lastName) {
   return {
-    firstName: firstName,
-    lastName: lastName,
+    "firstName": firstName,
+    "lastName": lastName
   };
 }
+
+console.log(fullName('Andre', 'Rispoli'))
 
 module.exports = fullName;
