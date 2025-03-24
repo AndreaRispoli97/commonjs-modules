@@ -9,6 +9,6 @@ function fullName(firstName, lastName) {
   };
 }
 
-console.log(fullName('Andre', 'Rispoli'))
+//console.log(fullName('Andre', 'Rispoli'))
 
 module.exports = fullName;

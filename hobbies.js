@@ -6,6 +6,6 @@ function myHobbies(hobbyOne,hobbyTwo,hobbieThree){
     return [hobbyOne, hobbyTwo,hobbieThree];
 }
 
-console.log(myHobbies('Mangio', 'Bevo', 'Dormo'))
+//console.log(myHobbies('Mangio', 'Bevo', 'Dormo'))
 
 module.exports = myHobbies;

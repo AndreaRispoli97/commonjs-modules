@@ -9,10 +9,11 @@
 const nameFunction = require("./names.js");
 const personalHobbie = require("./hobbies.js");
 
+const person = nameFunction('Andrea', 'Rispoli');
 
 function fullNameHobbies(){
     return {
-        fullName: `${'Andrea'} ${'Rispoli'}`,
+        fullName: `${person.firstName} ${person.lastName}`,
         hobbies: personalHobbie('Mangio', 'Bevo', 'Dormo')
     }
 }
